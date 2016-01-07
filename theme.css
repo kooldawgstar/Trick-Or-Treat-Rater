@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(rgb(253, 255, 133), rgb(255, 173, 77));
+  background-attachment: fixed;
+  padding-left: 0.5em;
+  padding-top: 70px;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.pumpkin-border {
+  border: 30px solid black;
+  border-image: url("pumpkinborder.png") 35% round;
+  border-image-repeat: repeat;
+  padding: 1em 1em 1em 1em;
+}
+
+.jumbotron {
+  border-radius: 10px;
+  padding-left: 2em;
+}
+
+#comment-box {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
